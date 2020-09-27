@@ -1,0 +1,2 @@
+# TombStoneInc
+A tombstone society.
