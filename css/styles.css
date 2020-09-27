@@ -1,0 +1,58 @@
+.tombe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.tombe2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.tombe3 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.tombe4 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.textl1{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: rgb(45, 45, 45);
+    
+}
+.textl2{
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: rgb(45, 45, 45);
+}
+.textl3{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: rgb(45, 45, 45);
+}
+.textl4{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: rgb(45, 45, 45);
+}
+

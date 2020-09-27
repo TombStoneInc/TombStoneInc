@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+     
+    <!-- Primary Meta Tags -->
+<title>Whartokx - kinetic typography</title>
+<meta name="title" content="Whartokx - kinetic typography">
+<meta name="description" content="Whartokx">
+<script src="html2canvas.js"></script>
+<script src="canvas2image.js"></script>
+<script src="html2canvas.min.js"></script>
+    <script type="text/javascript" src="/path/to/src/jquery.easeScroll.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logop.png">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=0.3, minimum-scale=0.3, maximum-scale-0.3 , user-scalable=no">
+    <link rel="stylesheet" href="css/stylespa.css">
+    <link rel="stylesheet" href="css/DL.css">
+    <link rel="shortcut icon" href="" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script>
+        var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+        if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
+        function mischandler() {
+            return false;
+        }
+        function mousehandler(e) {
+            var myevent = (isNS) ? e : event;
+            var eventbutton = (isNS) ? myevent.which : myevent.button;
+            if ((eventbutton == 2) || (eventbutton == 3)) return false;
+        }
+        document.oncontextmenu = mischandler;
+        document.onmousedown = mousehandler;
+        document.onmouseup = mousehandler;
+    </script>
+    <script language="JavaScript">
+
+        window.onload = function () {
+            document.addEventListener("contextmenu", function (e) {
+                e.preventDefault();
+            }, false);
+            document.addEventListener("keydown", function (e) {
+                //document.onkeydown = function(e) {
+                // "I" key
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                    disabledEvent(e);
+                }
+                // "J" key
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                    disabledEvent(e);
+                }
+                // "S" key + macOS
+                if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                    disabledEvent(e);
+                }
+                // "U" key
+                if (e.ctrlKey && e.keyCode == 85) {
+                    disabledEvent(e);
+                }
+                // "F12" key
+                if (event.keyCode == 123) {
+                    disabledEvent(e);
+                }
+            }, false);
+            function disabledEvent(e) {
+                if (e.stopPropagation) {
+                    e.stopPropagation();
+                } else if (window.event) {
+                    window.event.cancelBubble = true;
+                }
+                e.preventDefault();
+                return false;
+            }
+        }
+     //edit: removed ";" from last "}" because of javascript error
+    </script>
+</head>
+
+<body onload="init()">
+    <div id="main">
+        <div id="screenshot">
+            <div>
+                <p class="textl1" id="demo"></p>
+                <p class="textl2" id="demo2"></p>
+                <p class="textl3" id="demo3"></p>
+                <p class="textl4" id="demo4"></p>
+                <img class="tombe" src="https://cdn.discordapp.com/attachments/486234039905288225/759715327079743508/unknown.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <input class="tombe" type="text" id="myText" value="Inserez nom du mort..">
+        <input class="tombe2" type="text" id="myText2" value="Inserez nom du mort..">
+        <input class="tombe3" type="text" id="myText3" value="Inserez nom du mort..">
+        <input class="tombe4" type="text" id="myText4" value="Inserez nom du mort..">
+        <button class="tombe" onclick="myFunction()">Entérer</button>
+
+        
+
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myText").value;
+            document.getElementById("demo").innerHTML = x;
+            var x2 = document.getElementById("myText2").value;
+            document.getElementById("demo2").innerHTML = x2;
+            var x3 = document.getElementById("myText3").value;
+            document.getElementById("demo3").innerHTML = x3;
+            var x4 = document.getElementById("myText4").value;
+            document.getElementById("demo4").innerHTML = x4;
+        }
+        </script>
+        
+
+        
+    </div>
+    
+    
+</body>
+</html>
