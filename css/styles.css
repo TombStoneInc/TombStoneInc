@@ -24,7 +24,7 @@
 }
 .textl1{
     position: absolute;
-    top: 16%;
+    top: 120px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
@@ -33,7 +33,7 @@
 }
 .textl2{
     position: absolute;
-    top: 24%;
+    top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
@@ -41,7 +41,7 @@
 }
 .textl3{
     position: absolute;
-    top: 32%;
+    top: 280px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
@@ -49,7 +49,7 @@
 }
 .textl4{
     position: absolute;
-    top: 40%;
+    top: 360px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;

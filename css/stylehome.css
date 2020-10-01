@@ -1,0 +1,161 @@
+body {
+
+    margin: 0 auto;
+    overflow:auto;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    
+}
+#bcg1 {
+    background: rgb(42,42,42);
+background: radial-gradient(circle, rgba(42,42,42,1) 0%, rgba(32,32,32,1) 35%, rgba(14,14,14,1) 92%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1; /* Remove this line if it's not going to be a background! */
+}
+.pagetitle {
+    
+    margin-bottom: 300px;
+    margin-top: 300px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+}
+.cadreb1 {
+
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+}
+mark {
+    background-color: rgb(255, 255, 255);
+    color: rgb(31, 31, 31);
+  }
+/* the code you want is around line 45  */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+.container {
+  display: flex;
+  flex-flow: column;
+  width: 60%;
+  height: 50vh;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.hover-container {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.body-text {
+  margin: 0.5em 0;
+}
+
+/* --- this is the code you probably want ---- */
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+  border-bottom: 3px solid #ffffff;
+  font-size: 60px;
+  transition: all 0.25s linear;
+  position: relative;
+}
+a { color: inherit;
+    text-decoration: none;
+ } 
+h1:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(31, 31, 31);
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* this is to match where the border is */
+  transform-origin: left; 
+  transform: scale(0);
+  transition: 0.25s linear;
+/*   will-change: transform; */
+}
+
+h1:hover:before {
+  transform: scale(1);
+}
+.txt {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px;
+    background-blend-mode: hard-light;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(31, 31, 31);
+    font-size: 60px;
+    margin-top: 0px;
+    background: linear-gradient(rgb(255, 255, 255) 10%, 95%, rgba(255, 255, 255, 0.349) 98%);
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+}
+.txtp {
+    background-color: #fff;
+    text-align: center;
+    background-blend-mode: hard-light;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(31, 31, 31);
+    font-size: 120px;
+    margin-top: -250px;
+    background: linear-gradient(rgb(255, 255, 255) 10%, 95%, rgba(255, 255, 255, 0.349) 98%);
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+}
+.txte {
+    background-color: #fff;
+    text-align: center;
+    background-blend-mode: hard-light;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(31, 31, 31);
+    font-size: 20px;
+    margin-top: -50px;
+    background: linear-gradient(rgb(255, 255, 255) 10%, 95%, rgba(255, 255, 255, 0.349) 98%);
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+}
+.yt {
+    display: block;
+    border-style:none;
+}
+
+
