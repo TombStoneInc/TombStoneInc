@@ -11,9 +11,9 @@
 <title>Create your tombstone</title>
 <meta name="title" content="Create your tombstone">
 <meta name="description" content=":)">
+
 <script src="html2canvas.js"></script>
-<script src="canvas2image.js"></script>
-<script src="html2canvas.min.js"></script>
+
     <script type="text/javascript" src="/path/to/src/jquery.easeScroll.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="images/logop.png">
     <script src="js/jquery-3.5.1.min.js"></script>
@@ -26,21 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <script>
-        var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-        if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
-        function mischandler() {
-            return false;
-        }
-        function mousehandler(e) {
-            var myevent = (isNS) ? e : event;
-            var eventbutton = (isNS) ? myevent.which : myevent.button;
-            if ((eventbutton == 2) || (eventbutton == 3)) return false;
-        }
-        document.oncontextmenu = mischandler;
-        document.onmousedown = mousehandler;
-        document.onmouseup = mousehandler;
-    </script>
+   
     <script language="JavaScript">
 
         window.onload = function () {
@@ -96,17 +82,17 @@
             </div>
         </div>
     </div>
-  
-    
+
     <div>
+        
+
         <input class="tombe" type="text" id="myText" value="Deceased name">
         <input class="tombe2" type="text" id="myText2" value=":(">
         <input class="tombe3" type="text" id="myText3" value="...">
         <input class="tombe4" type="text" id="myText4" value="~ 1589 - 2020 ~">
         <button class="tombe" onclick="myFunction()">Bury !</button>
 
-        
-
+ 
         <script>
         function myFunction() {
             var x = document.getElementById("myText").value;
