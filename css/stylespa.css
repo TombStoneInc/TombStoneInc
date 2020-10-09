@@ -2,8 +2,8 @@
 .textl1{
     position: absolute;
     top: 18px;
-    left: 253px;
-    margin-left: 3px;
+    padding-left: 248px;
+
     color: rgb(165, 104, 31);
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
@@ -13,8 +13,8 @@
 .textl2{
     position: absolute;
     top: 38px;
-    left: 253px;
-    margin-left: 3px;
+    padding-left: 248px;
+
     color: rgb(165, 104, 31);
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
@@ -23,8 +23,8 @@
 .textl3{
     position: absolute;
     top: 59px;
-    left: 253px;
-    margin-left: 3px;
+    padding-left: 248px;
+
     color: rgb(165, 104, 31);
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
@@ -33,11 +33,38 @@
 .textl4{
     position: absolute;
     top: 80px;
-    left: 253px;
-    margin-left: 3px;
+    padding-left: 248px;
+
     color: rgb(165, 104, 31);
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 3.7px;
+}
+input {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.ooo {
+    display: flex;
+    flex-flow: column;
+
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-right: 23%;
+    margin-left: 23%;
+    min-width: 800px;
+    margin-top: 100px;
+
+    padding-bottom: 100px;
+    border-radius: 5px;
+}
+.don {
+    display: flex;
+    flex-flow: column;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 }
 

@@ -56,3 +56,11 @@
     color: rgb(45, 45, 45);
 }
 
+.don {
+    display: flex;
+    flex-flow: column;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
